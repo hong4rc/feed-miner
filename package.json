@@ -1,0 +1,20 @@
+{
+    "name": "feed-miner",
+    "version": "0.0.1",
+    "description": "Find feed of friend (same day and month)",
+    "author": "Hongarc <anhhong12121997t@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "lint": "eslint index.js lib/** --fix"
+    },
+    "dependencies": {
+        "console-control-strings": "^1.1.0",
+        "request": "^2.88.0",
+        "supports-color": "^5.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.4.0",
+        "eslint-config-kiat": "^1.0.1"
+    }
+}
