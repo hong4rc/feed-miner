@@ -6,3 +6,9 @@ yarn-error.log
 
 # Node module
 node_modules/
+
+# VisualStudio Code
+.vscode/
+
+# DS_Store
+.DS_Store
