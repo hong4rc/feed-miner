@@ -1,6 +1,7 @@
-# Yarn
+# Yarn and Npm
 yarn.lock
 yarn-error.log
+package-lock.json
 
 .idea/
 
