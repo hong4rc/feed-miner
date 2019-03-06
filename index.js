@@ -6,11 +6,17 @@ const graph = require('./lib/graph');
 let process = graph.getListFriend();
 const now = new Date();
 process.then((users) => {
-  users.forEach((user) => {
+  if (!Array.isArray(users)) {
+    return log('Omg!! where is your friend?');
+  }
+  return users.forEach((user) => {
     log(user);
     process = process.then(() => graph.loadFeed(user.id))
       .then((feeds) => {
-        feeds.forEach((feed) => {
+        if (!Array.isArray(feeds)) {
+          return log('%s: fail to load feed', user.name);
+        }
+        return feeds.forEach((feed) => {
           const that = new Date(feed.created_time);
           if (that.getDate() === now.getDate()
                               && that.getMonth() === now.getMonth()
