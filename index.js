@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config();
 
 const graph = require('./lib/graph');
 const log = require('./lib/log');
