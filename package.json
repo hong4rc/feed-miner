@@ -9,10 +9,9 @@
         "lint": "eslint index.js lib/** --fix"
     },
     "dependencies": {
-        "console-control-strings": "^1.1.0",
+        "debug": "^4.1.1",
         "dotenv": "^6.2.0",
-        "node-fetch": "^2.3.0",
-        "supports-color": "^5.5.0"
+        "node-fetch": "^2.3.0"
     },
     "devDependencies": {
         "eslint": "^5.4.0",
