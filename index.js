@@ -1,5 +1,6 @@
 
 require('dotenv').config();
+
 const log = require('debug')('bot');
 const graph = require('./lib/graph');
 
