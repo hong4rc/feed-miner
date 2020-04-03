@@ -2,7 +2,7 @@
   "name": "feed-miner",
   "version": "0.0.1",
   "description": "Find feed of friend (same day and month)",
-  "author": "Hongarc <anhhong12121997t@gmail.com>",
+  "author": "Hongarc <aqua.hong.97@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "dotenv": "^7.0.0",
+    "dotenv": "^8.2.0",
     "node-fetch": "^2.4.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-unicorn": "^8.0.2"
+    "eslint-plugin-unicorn": "^18.0.1"
   }
 }

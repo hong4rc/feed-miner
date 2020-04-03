@@ -24,7 +24,7 @@ process.then((users) => {
                               && that.getFullYear() !== now.getFullYear()
                               && feed.id.match(new RegExp(`^${user.id}`))
           ) {
-            log(user.name, `https://www.facebook.com/${feed.id}`);
+            log(user.name, feed.permalink_url);
           }
         });
       });
