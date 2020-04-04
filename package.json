@@ -1,6 +1,6 @@
 {
   "name": "feed-miner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find feed of friend (same day and month)",
   "author": "Hongarc <aqua.hong.97@gmail.com>",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "lint": "eslint index.js lib/** --fix"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "debug": "^4.1.1",
-    "dotenv": "^8.2.0",
-    "node-fetch": "^2.4.1"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
